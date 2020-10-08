@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Plant Places</title>
 </head>
 <body>
 	<div>
 		<h1>
 			Welcome to Plant Places!
 		</h1>
+		<br/>
+		<p th:text = "${specimenDTO}"/>
 	</div>
 </body>
 </html>
